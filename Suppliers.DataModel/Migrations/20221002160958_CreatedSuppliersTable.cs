@@ -19,8 +19,8 @@ namespace Suppliers.DataModel.Migrations
                     Address = table.Column<string>(type: "nvarchar(200)", nullable: false),
                     Representative = table.Column<string>(type: "nvarchar(100)", nullable: false),
                     ContactNo = table.Column<string>(type: "nvarchar(50)", nullable: false),
-                    DateAdded = table.Column<DateTime>(type: "DateTime", nullable: false),
-                    DateModified = table.Column<DateTime>(type: "DateTime", nullable: true)
+                    DateAdded = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    DateModified = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
                 constraints: table =>
                 {

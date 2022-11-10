@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suppliers.DataModel", "Suppliers.DataModel\Suppliers.DataModel.csproj", "{C986F784-2B10-4C61-8CB5-26552ABC74B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Suppliers.DataModel", "Suppliers.DataModel\Suppliers.DataModel.csproj", "{C986F784-2B10-4C61-8CB5-26552ABC74B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suppliers.App", "Suppliers.App\Suppliers.App.csproj", "{71009B1D-4A9D-4329-996E-9CE78FB4EA02}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Suppliers.App", "Suppliers.App\Suppliers.App.csproj", "{71009B1D-4A9D-4329-996E-9CE78FB4EA02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entprog.DataModel", "Products.DataModel\Entprog.DataModel.csproj", "{601530A7-1CC4-4678-8837-9656DC24D856}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{71009B1D-4A9D-4329-996E-9CE78FB4EA02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71009B1D-4A9D-4329-996E-9CE78FB4EA02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71009B1D-4A9D-4329-996E-9CE78FB4EA02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601530A7-1CC4-4678-8837-9656DC24D856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601530A7-1CC4-4678-8837-9656DC24D856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601530A7-1CC4-4678-8837-9656DC24D856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601530A7-1CC4-4678-8837-9656DC24D856}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

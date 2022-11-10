@@ -12,7 +12,7 @@ using Suppliers.DataModel;
 namespace Suppliers.DataModel.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20220930053008_CreatedSuppliersTable")]
+    [Migration("20221002160958_CreatedSuppliersTable")]
     partial class CreatedSuppliersTable
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -45,10 +45,10 @@ namespace Suppliers.DataModel.Migrations
                         .HasColumnType("nvarchar(50)");
 
                     b.Property<DateTime>("DateAdded")
-                        .HasColumnType("DateTime");
+                        .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("DateModified")
-                        .HasColumnType("DateTime");
+                        .HasColumnType("datetime2");
 
                     b.Property<string>("Representative")
                         .IsRequired()
